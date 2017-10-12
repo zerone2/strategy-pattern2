@@ -3,12 +3,12 @@ package Character;
 import Fight.*;
 import Move.*;
 
-public abstract class Character {
+public abstract class GameCharacter {
 
     protected  Fight fight;
     protected  Move move;
 
-    public Character(){}
+    public GameCharacter(){}
 
     public void goFight(){
         fight.fight();

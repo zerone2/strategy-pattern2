@@ -1,15 +1,15 @@
 package Character;
 
-import Fight.WizardFight;
-import Move.WizardMove;
+import Fight.MagicFight;
+import Move.FlyMove;
 
-public class Wizard extends Character {
+public class Wizard extends GameCharacter {
     public Wizard(){
-        fight = new WizardFight();
-        move = new WizardMove();
+        fight = new MagicFight();
+        move = new FlyMove();
     }
 
     public void display(){
-        System.out.println("지팡이와 로브");
+        System.out.println("-마법사-\n지팡이와 로브");
     }
 }
